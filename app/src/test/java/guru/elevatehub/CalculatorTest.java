@@ -14,13 +14,13 @@ class CalculatorTest {
 
     @Test
     void addsTwoNumbers() {
-        assertEquals(6, calculator.add(2, 3));
-        assertEquals(3, calculator.add(-1, 1));
+        assertEquals(5, calculator.add(2, 3));
+        assertEquals(0, calculator.add(-1, 1));
     }
 
     @Test
     void subtractsTwoNumbers() {
-        assertEquals(3, calculator.subtract(5, 1));
+        assertEquals(4, calculator.subtract(5, 1));
         assertEquals(-2, calculator.subtract(1, 3));
     }
 }
